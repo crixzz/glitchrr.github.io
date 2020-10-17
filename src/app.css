@@ -24,18 +24,14 @@ font-family:Roboto, sans-serif !important;
 }
 .logo1 {
     background-image: url('./coin1.png');
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 350px;
-    background-position-y: 50%;
+    background-position-x: 50%;
     background-color: #151515;
 }
 .logo2 {
     background-image: url('./coin2.png');
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 350px;
-    background-position-y: 50%;
+    background-position-x: 50%;
     background-color: #151515;
 }
 
