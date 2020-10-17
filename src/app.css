@@ -51,7 +51,7 @@ background-size: cover;
     border: 0px;
 }
 .btn.btn-success {
-    background-color: rgb(64,78,92);
+    background: linear-gradient(40deg,#ff6ec4,#7873f5) !important;
     border: 0;
     border-radius: 2px;
     padding: 8px 15px;
