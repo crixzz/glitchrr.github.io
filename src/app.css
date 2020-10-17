@@ -5,6 +5,7 @@ color: #fff;
 font-family:Roboto, sans-serif !important;
 }
 .card {
+    border:0;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -18,7 +19,7 @@ font-family:Roboto, sans-serif !important;
     background-color: rgb(43, 58, 74);
     background-clip: border-box;
     border-radius: .25rem;
-    /*box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);*/
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
     transition: all 0.5s ease;
 }
 .logo1 {
@@ -33,10 +34,7 @@ font-family:Roboto, sans-serif !important;
     background-size: cover;
     height: 350px;
 }
-.card:hover {
-    
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
-}
+
 .card-body{
   padding: 0;
 }
