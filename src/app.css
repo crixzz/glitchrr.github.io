@@ -17,7 +17,6 @@ font-family:Roboto, sans-serif !important;
     word-wrap: break-word;
     background-color: rgb(43, 58, 74);
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     /*box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);*/
     transition: all 0.5s ease;
@@ -44,11 +43,13 @@ font-family:Roboto, sans-serif !important;
 .card-header {
     border: 0px;
     color: black;
-   background-image: url('./tail.jpeg');
-background-size: cover;
+  color: #f9f9f9;
+background: #131313;
+font-weight: 900;
   }
   .card-footer {
     border: 0px;
+      background-color: rgba(0, 0, 0, 0.75);
 }
 .btn.btn-success {
     background: linear-gradient(40deg,#ff6ec4,#7873f5) !important;
